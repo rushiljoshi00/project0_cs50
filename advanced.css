@@ -1,0 +1,26 @@
+#advance-search{
+    color: #d93025;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: arial,sans-serif;
+}
+
+#advance-submit{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: white;
+    padding: 0  12px;
+    height: 30px;
+    min-width: 120px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 11px;
+    border-radius: 2px;
+}
+
+#advance-submit:hover{
+    background-color: #357ae8;
+    border-color: 1px solid #2f5bb7;
+}
