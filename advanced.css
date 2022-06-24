@@ -11,6 +11,11 @@
     /* border: 2px solid green; */
 }
 
+.adv-query-title{
+    color: #333;
+    font-size: 16px;
+}
+
 .adv-query{ 
     display: inline-block;
     width: 180px;
@@ -40,6 +45,11 @@
     width: 560px;
 }
 
+.explanation-title{
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+}
 
 .explanation span{
     font-size: 11px;

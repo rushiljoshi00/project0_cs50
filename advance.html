@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <form action="https://www.google.ca/advanced_search" class="google-advance">
+        <form action="https://google.com/search" class="google-advance">
             <div class = "index-links">
                 <a href="index.html">Google Search</a>
             </div>
@@ -21,11 +21,23 @@
             <div class = "advance-container">
 
                 <div class = "adv-screen-width">
+                    <div class = "adv-query">
+                        <span class = "adv-query-title" for="first-query">Find Pages with...</span>
+                    </div>
+                    <div class = "adv-textbox2"></div>
+                    <div>
+                        <span class = "explanation-title">
+                            To do this in the search box
+                        </span>
+                    </div>
+                </div> 
+
+                <div class = "adv-screen-width">
                     <div class = "textbox-label">
                         <label class = "adv-query" for="first-query">all these words:</label>
                     </div>
                     <div class = "div-textbox">
-                        <input class = "adv-textbox" type="text" id = "first-query" name="first-query">   
+                        <input class = "adv-textbox" type="text" id = "first-query" name="as_q">   
                     </div>
                     <div class = "explanation">
                         <span>
@@ -40,7 +52,7 @@
                     </div>
 
                     <div class = "div-textbox">
-                        <input class = "adv-textbox" type="text" id = "second-query" name="second-query">               
+                        <input class = "adv-textbox" type="text" id = "second-query" name="as_epq">               
                     </div>
                     <div class = "explanation">
                         <span>
@@ -55,7 +67,7 @@
                     </div>
 
                     <div class = "div-textbox">
-                        <input class = "adv-textbox" type="text" id = "third-query" name="third-query">
+                        <input class = "adv-textbox" type="text" id = "third-query" name="as_oq">
                     </div>
 
                     <div class = "explanation">
@@ -72,7 +84,7 @@
                     </div>
 
                     <div class = "div-textbox">
-                        <input class = "adv-textbox" type="text" id = "fourth-query" name="fourth-query">
+                        <input class = "adv-textbox" type="text" id = "fourth-query" name="as_eq">
                     </div>
 
                     <div class = "explanation">
