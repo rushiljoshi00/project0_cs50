@@ -3,47 +3,93 @@
     <head>
         <title>Advanced Search</title>
         <link rel = "stylesheet" href="advanced.css"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     </head>
 
     <body>
         <form action="https://www.google.ca/advanced_search" class="google-advance">
-            <div>
-                <label id = "advance-search" for="advance-search">Advanced Search</label><br><br>
-            </div>
-
-            <div class ="container">           
-                <label for="first-query">all these words:</label>
-                <input type="text" id = "first-query" name="first-query">
-                <label>Type the important words: tri-colour rat terrier</label><br><br>
-            
-                         
-                <label for="second-query">this exact word or phrase:</label>
-                <input type="text" id = "second-query" name="second-query">
-                <label for="second-query-explain">Put exact words in quotes: "rat terrier"</label><br><br>
-  
-            
-                <label for="third-query">any of these words:</label>
-                <input type="text" id = "third-query" name="third-query">
-                <label for="third-query-explain">Type OR between all the words you want: miniature OR standard</label><br><br>
-
-          
-                <label for="fourth-query">none of these words:</label>
-                <input type="text" id = "fourth-query" name="fourth-query">
-                <label for="fourth-query-explain">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
-            </div> 
-
-            <div>
-                <br>
-                <input id = "advance-submit" type="submit" value="Advanced Search">
-            </div>
-                 
-
-            <div>
-                <br>
-                <a href="image.html">Images</a>
+            <div class = "index-links">
                 <a href="index.html">Google Search</a>
+            </div>
+
+            <div class = "advance-search">
+                <label for="advance-search">Advanced Search</label>
+                <hr>
+            </div>
+
+            <div class = "advance-container">
+
+                <div class = "adv-screen-width">
+                    <div class = "textbox-label">
+                        <label class = "adv-query" for="first-query">all these words:</label>
+                    </div>
+                    <div class = "div-textbox">
+                        <input class = "adv-textbox" type="text" id = "first-query" name="first-query">   
+                    </div>
+                    <div class = "explanation">
+                        <span>
+                            Type the important words: tri-colour rat terrier
+                        </span>
+                    </div>
+                </div>           
+                 
+                <div class = "adv-screen-width">
+                    <div class = "textbox-label">
+                        <label class = "adv-query" for="second-query">this exact word or phrase:</label>
+                    </div>
+
+                    <div class = "div-textbox">
+                        <input class = "adv-textbox" type="text" id = "second-query" name="second-query">               
+                    </div>
+                    <div class = "explanation">
+                        <span>
+                            Put exact words in quotes: "rat terrier"
+                        </span>
+                    </div>
+                </div>
+                
+                <div class = "adv-screen-width">
+                    <div class = "textbox-label">
+                        <label class = "adv-query" for="third-query">any of these words:</label>
+                    </div>
+
+                    <div class = "div-textbox">
+                        <input class = "adv-textbox" type="text" id = "third-query" name="third-query">
+                    </div>
+
+                    <div class = "explanation">
+                        <span>
+                            Type OR between all the words you want: miniature OR standard
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class = "adv-screen-width">
+                    <div class = "textbox-label">
+                        <label class = "adv-query" for="fourth-query">none of these words:</label>
+                    </div>
+
+                    <div class = "div-textbox">
+                        <input class = "adv-textbox" type="text" id = "fourth-query" name="fourth-query">
+                    </div>
+
+                    <div class = "explanation">
+                        <span> Put a minus sign just before words that you don't want: -rodent, -"Jack Russell" </span>
+                    </div>
+                </div>
+
+                <div class = "adv-screen-width">  
+                    <div class = "adv-query"></div>
+                    <div class = "div-textbox">
+                        <div class = "adv-textbox2">
+                            <input id = "advance-submit" type="submit" value="Advanced Search">
+                        </div>
+                    </div>    
+                </div>
+
             </div>   
-            
         </form>
     </body>
 </html>

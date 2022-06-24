@@ -7,16 +7,19 @@
 
     <body>
         <div class = "index-links">
-            <a href="image.html">Images</a>
+            <a href="image.html">Images</a>&nbsp;
             <a href="advance.html">Advanced Search</a>
         </div> 
-        <div class = "flex-container">
-            <form class="google-buttons" action="https://google.com/search">
-                    <div class = "homepage"><img src="search_image.png" alt="Google"></div> 
-                    <div id ="main-search" class = "homepage"> <input type="text" name="q"></div>
-                    <div class = "homepage">
-                        <input type="submit" value="Google Search">
-                        <input type="submit" value="I'm Feeling Lucky">
+
+        <div class = "container">
+            <form class="google" action="https://google.com/search">
+                    <div class = "google-logo"><img src="search_image.png" alt="Google"></div> 
+                    <div> 
+                        <input class ="mainsearch" type="text" name="q">
+                    </div>
+                    <div class = "button-wrapper">
+                        <input class = "button" type="submit" name = "btnK" value="Google Search">
+                        <input class = "button" type="submit" name = "btnI" value="I'm Feeling Lucky">
                     </div>
             </form>
         </div>

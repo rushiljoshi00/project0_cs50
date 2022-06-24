@@ -6,13 +6,18 @@
     </head>
 
     <body>
-        <form action="https://images.google.com/?gws_rd=ssl" class="google-image">
-            <div class = "homepage"><img src="search_image.png" alt="Google Images"></div>
-            <div class = "homepage"><input type="text" name="q"></div>
-            <div class = "homepage">
-                <a href="index.html">Search</a>
-                <a href="advance.html">Advanced Search</a>
-            </div>
-        </form>
+        <div class = "index-links">
+            <a href="index.html">Search</a>&nbsp;
+        </div>
+
+        <div class = "container">
+            <form class="google-image" action="https://google.com/images">
+                <div class = "google-logo"><img src="search_image.png" alt="Google Images"></div>
+                <div><input class = "mainsearch" type="text" name="q"></div>   
+                <div class = "button-wrapper">
+                    <input class = "button" type="submit" name = "isch" value="Image Search">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
